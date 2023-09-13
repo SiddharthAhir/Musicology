@@ -1,0 +1,1436 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body,
+a {
+    font-family: 'Oswald', sans-serif;
+    color: #fff;
+    font-weight: 400;
+}
+
+
+/* HEADER */
+
+.desktop {
+    display: none;
+}
+
+
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+    /* max-width: 1440px; */
+    padding: 5px 80px;
+}
+
+.main-header {
+    background-color: #303030;
+}
+
+header {
+    /* display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0px; */
+}
+
+.slider {
+    display: none;
+}
+
+.desktop .nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    gap: 62px;
+}
+
+.nav a {
+    font-size: 25px;
+    text-decoration: none;
+}
+
+.monav li {
+    list-style-type: none;
+}
+
+.monav a {
+    text-decoration: none;
+}
+
+.mobilenav .logo img {
+    width: 100%;
+}
+
+.mobilenav .logo {
+    /* width: 1%; */
+}
+
+/* MAIN SLIDER */
+.fa-arrow-left {
+    color: #fff;
+    top: 50%;
+    position: absolute;
+    z-index: 1;
+    left: 25px;
+    cursor: pointer;
+    border: 1px solid white;
+    padding: 7px;
+}
+
+.fa-arrow-right {
+    top: 50%;
+    position: absolute;
+    z-index: 1;
+    right: 25px;
+    cursor: pointer;
+    border: 1px solid white;
+    padding: 7px;
+}
+
+.fa-arrow-left:hover {
+    background-color: #fff;
+    color: black;
+}
+
+.fa-arrow-right:hover {
+    background-color: #fff;
+    color: black;
+}
+
+.monav {
+    display: none;
+}
+
+
+.content p {
+    font-size: 30px;
+}
+
+.slider-img {
+    position: relative;
+}
+
+.slider-img img {
+    width: 100%;
+}
+
+.slider {
+    position: absolute;
+    top: 28%;
+    width: 610px;
+    width: 100%;
+}
+
+.slider h2 {
+    font-size: 130px;
+    margin: 0px;
+}
+
+.slider p {
+    font-size: 29px;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+    text-align: left;
+}
+
+.slider a {
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: 400;
+    background-color: #e8631c;
+    padding: 10px 78px;
+    border-radius: 8px;
+    display: inline-block;
+    margin-top: 25px;
+}
+
+.slider h2 {
+    width: 100%;
+    font-size: 50px;
+    margin: 0px;
+}
+
+/* SECOND SLIDER */
+.main-slider {
+    background-image: url(./img/second\ slider.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    /* position: relative; */
+}
+
+.content {
+    padding-top: 70px;
+    text-align: center;
+}
+
+
+.content h3 {
+    font-size: 45px;
+}
+
+.cards {
+    text-align: center;
+    display: flex;
+    gap: 82px;
+    padding-top: 80px;
+    padding-bottom: 90px;
+    font-weight: 400;
+}
+
+.cards .card {
+    background-image: url(./img/backgound-of-card.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.cards .card img {
+    width: 100%;
+}
+
+.card h2,
+.pricing p {
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.cards .card p {
+    font-size: 23px;
+    font-family: 'Montserrat', sans-serif;
+    padding-bottom: 30px;
+}
+
+/* THIRD SLIDE */
+.main-slider2 {
+    background-image: url(./img/thirdbackground.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.pricing .card {
+    background-image: url(./img/orange-background.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+}
+
+.pricing .card img {
+    justify-content: space-around;
+    align-items: center;
+}
+
+.pricing {
+    text-align: center;
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 82px;
+    padding-top: 80px;
+    padding-bottom: 90px;
+    font-weight: 400;
+    /* width: 100%; */
+}
+
+.pricing .card a {
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: 400;
+    background-color: #303030;
+    border-radius: 4px;
+    padding: 10px 120px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pricing .card h2 {
+    padding: 20px 0px;
+    font-size: 37px;
+    font-weight: 600;
+}
+
+
+.pricing .card p {
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    padding-bottom: 25px;
+}
+
+.pricing .card img {
+    padding-top: 52px;
+    width: 33.33%;
+}
+
+/* FOURTH SLIDER  */
+.fourth-slider img {
+    width: 50%;
+}
+
+.left-img {
+    background-image: url(./img/amazingdance.png);
+    display: flex;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+
+
+.left-img img {
+    width: 100%;
+}
+
+.fourth-slider {
+    width: 100%;
+}
+
+.fourth-slider .text {
+    width: 100%;
+}
+
+.right-img img {
+    width: 100%;
+}
+
+.right-img .text {
+    width: 100%;
+}
+
+.right-img {
+    display: flex;
+    background-image: url(./img/bestdance.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.left-img h2,
+p {
+    text-align: center;
+}
+
+.right-img h2,
+p {
+    text-align: center;
+}
+
+.text {
+    padding-top: 294px;
+    display: inline-block;
+}
+
+
+
+.left-img h2,
+.right-img h2 {
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.text p {
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.text a {
+    text-decoration: none;
+    background-color: #303030;
+    padding: 11px 50px;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    border-radius: 5%;
+}
+
+/* FIFTH SLIDER */
+.fifth-slider {
+    background-image: url(./img/fifthslider.png);
+    text-align: center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.number h3 {
+    width: 100%;
+}
+
+.title {
+    padding-top: 20px;
+}
+
+.title h2 {
+    font-size: 70px;
+    padding: 64px 0px;
+}
+
+.title p {
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.title p:nth-child(3) {
+    padding-bottom: 180px;
+}
+
+.number {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 66px;
+    text-align: center;
+}
+
+.sub {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 249px;
+    padding-bottom: 200px;
+    padding-left: 71px;
+}
+
+.sub h5 {
+    font-size: 41px;
+}
+
+/* SIXTH SLIDER */
+.sixth-slider {
+    background-image: url(./img/sixthimg.png);
+    background-repeat: no-repeat;
+    text-align: center;
+    background-size: 100% 100%;
+    /* display: flex; */
+}
+
+
+.sixthcontent h3 {
+    font-size: 59px;
+}
+
+/* SEVENTH SLIDER */
+.sevenslider {
+    background-image: url(./img/seventhslider.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.sevenslider h2 {
+    font-size: 75px;
+    font-weight: 700;
+}
+
+.sevenslider p {
+    font-size: 30px;
+}
+
+.form {
+    margin-top: 60px;
+    margin-bottom: 40px;
+    text-align: center;
+    margin-right: 0px;
+}
+
+
+/* FOOTER */
+.mainfooter {
+    background-image: url(./footerimg.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.mainfooter {
+    background-color: #111;
+    font-weight: 400;
+}
+
+.left-footer {
+    width: 46%;
+}
+
+.footer h6 {
+    font-size: 33px;
+    padding-bottom: 35px;
+}
+
+.icons {
+    display: flex;
+    gap: 17px;
+}
+
+.footer {
+    padding: 50px 0px 50px 0px;
+}
+
+.right-footer a {
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+}
+
+.right-footer li {
+    list-style-type: none;
+}
+
+.right-footer {
+    display: flex;
+    gap: 38px;
+    width: 53%
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+}
+
+.right-footer li {
+    padding-bottom: 10px;
+}
+
+/* .mobilenav {
+    display: none;
+} */
+
+
+
+/* MEDIA QUERY */
+@media only screen and (min-width: 320px) {
+
+    .container {
+        padding: 5px 20px;
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    .number {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .slider a {
+        text-decoration: none;
+        font-size: 30px;
+        font-weight: 400;
+        background-color: #e8631c;
+        padding: 10px 78px;
+        border-radius: 8px;
+        display: inline-block;
+        /* width: 100%; */
+        margin-top: 25px;
+    }
+
+    .text {
+        padding-top: 26px;
+    }
+
+    .sixthcontent p {
+        font-size: 50px;
+    }
+
+    .slider p {
+        /* width: 100%; */
+    }
+
+    .cards {
+        display: flex;
+        flex-direction: column;
+        gap: 82px;
+    }
+
+    .pricing {
+        flex-direction: column;
+        display: flex;
+        gap: 82px;
+        /* width: 100%; */
+    }
+
+    .pricing .card a {
+        width: 100%;
+    }
+
+    .left-img {
+        background-image: url(./img/amazingdance.png);
+        display: flex;
+        flex-direction: column;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+
+    .right-img {
+        flex-direction: column;
+    }
+
+    .text a {
+        /* width: 100%; */
+    }
+
+    .nav {
+        display: none;
+    }
+
+    .right-footer {
+        display: flex;
+        gap: 38px;
+        width: 53%;
+        flex-direction: column;
+    }
+
+    .footer {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+    }
+
+    .title h2 {
+        font-size: 40px;
+        padding: 64px 0px;
+    }
+
+    .title p {
+        font-size: 19px;
+    }
+
+    .title p:nth-child(3) {
+        padding-bottom: 50px;
+    }
+
+    .sub {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 10px;
+        padding-bottom: 200px;
+        padding-left: 2px;
+    }
+
+
+
+    .sixthcontent p {
+        font-size: 28px;
+    }
+
+    .sixthcontent {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+
+    .sevenslider h2 {
+        font-size: 50px;
+        font-weight: 700;
+    }
+
+    .subs {
+        padding: 16px 20px;
+        font-size: 22px;
+        margin-top: 30px;
+    }
+
+    .email {
+        width: 87%;
+    }
+
+    .left-footer p {
+        font-size: 17px;
+        padding-bottom: 31px;
+        font-family: 'Montserrat', sans-serif;
+        text-align: left;
+    }
+
+    header .mobilenav {
+        padding: 10px 0px;
+        display: flex;
+        gap: 220px;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+
+}
+
+/* 1024 */
+@media only screen and (min-width: 1024px) {
+
+    /* HEADER */
+    .container {
+        padding: 5px 50px;
+    }
+
+
+    .desktop {
+        display: block;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 10px 0px
+    }
+
+    .slider h2 {
+        /* width: 1 00%; */
+        font-size: 50px;
+        margin: 0px;
+    }
+
+    .desktop .nav ul {
+        margin-right: 80px;
+    }
+
+
+    .nav {
+        display: block;
+    }
+
+    .slider {
+        position: absolute;
+        top: 28%;
+        width: 610px;
+        /* width: 100%; */
+    }
+
+
+    .sixthcontent {
+        padding-top: 322px;
+        padding-bottom: 326px;
+    }
+
+    .content p {
+        font-size: 30px;
+    }
+
+
+    .content h3 {
+        font-size: 75px;
+    }
+
+    .sub {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 249px;
+        padding-bottom: 200px;
+        padding-left: 71px;
+    }
+
+    .left-img h2,
+    .right-img h2 {
+        font-size: 75px;
+        font-weight: 700;
+        text-align: left;
+    }
+
+    .text p {
+        font-size: 30px;
+        font-weight: 400;
+        text-align: left;
+    }
+
+    .text a {
+        text-decoration: none;
+        background-color: #303030;
+        padding: 11px 97px;
+        font-size: 30px;
+        display: inline-block;
+        margin-top: 50px;
+        border-radius: 5%;
+    }
+
+    .pricing .card p {
+        font-size: 22px;
+        font-family: 'Montserrat', sans-serif;
+        padding-bottom: 25px;
+    }
+
+    .nav ul {
+        gap: 45px;
+    }
+
+    .nav a {
+        font-size: 20px;
+    }
+
+    /* MAIN SLIDER */
+
+
+    .slider h2 {
+        font-size: 95px;
+    }
+
+    .slider p {
+        font-size: 24px;
+    }
+
+
+    .email {
+        /* width: 100%; */
+    }
+
+    .slider a {
+        font-size: 20px;
+    }
+
+    .slider a {
+        text-decoration: none;
+        font-size: 30px;
+        font-weight: 400;
+        background-color: #e8631c;
+        padding: 10px 78px;
+        border-radius: 8px;
+        display: inline-block;
+        /* width: 100%; */
+        margin-top: 25px;
+    }
+
+
+    /* SECOND SLIDER */
+    .content h3 {
+        font-size: 65px;
+    }
+
+    .content p {
+        font-size: 22px;
+    }
+
+    .cards {
+        gap: 95px;
+        flex-direction: row;
+    }
+
+    /* THIRD SLIDER */
+
+    .pricing {
+        flex-direction: row;
+    }
+
+    .right-footer {
+        flex-direction: row;
+    }
+
+    .footer {
+        flex-direction: row;
+    }
+
+    .left-img img {
+        width: 50%;
+    }
+
+    .right-img img {
+        width: 50%;
+    }
+
+    .right-img {
+        flex-direction: row;
+    }
+
+    .left-img {
+        background-image: url(./img/amazingdance.png);
+        display: flex;
+        flex-direction: row;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+
+    .pricing .card {
+        width: 28%;
+    }
+
+    .card h2,
+    .pricing p {
+        font-size: 30px;
+    }
+
+    .cards .card p {
+        font-size: 15px;
+    }
+
+    /* FOURTH SLIDER */
+    .left-img h2,
+    .right-img h2 {
+        font-size: 51px;
+    }
+
+    .text p {
+        font-size: 23px;
+    }
+
+    .text a {
+        font-size: 18px;
+    }
+
+    /* FIFTH SLIDER */
+    .title h2 {
+        font-size: 62px;
+    }
+
+    .title p {
+        font-size: 23px;
+    }
+
+    .number {
+        font-size: 56px;
+    }
+
+
+    .subs {
+        padding: 16px 3px;
+        display: inline-block;
+        font-size: 25px;
+        background-color: #303030;
+        color: #fff;
+        border: none;
+        font-weight: 600;
+        margin-right: 3px;
+    }
+
+    .sub h5 {
+        font-size: 22px;
+    }
+
+    .sub {
+        gap: 192px;
+        padding-left: 4px;
+    }
+
+    /* SIXTH SLIDER */
+    .sixthcontent p {
+        font-size: 40px;
+    }
+
+    .sixthcontent h3 {
+        font-size: 46px;
+    }
+
+    /* SEVENTH SLIDER */
+    .sevenslider h2 {
+        font-size: 64px;
+    }
+
+    .sevenslider p {
+        font-size: 20px;
+    }
+
+    .subs {
+        padding: 16px 3px;
+        font-size: 20px;
+        margin-right: 3px;
+    }
+
+    .email {
+        width: 552px;
+        height: 64px;
+        margin-bottom: 60px;
+        padding: 23px 2px 26px 22px;
+    }
+
+    .email {
+        width: 50%;
+    }
+
+
+    /* FOOTER */
+    .footer h6 {
+        font-size: 28px;
+    }
+
+    .left-footer p {
+        font-size: 17px;
+    }
+
+    .right-footer a {
+        font-size: 15px;
+    }
+
+    .left-footer {
+        width: 50%;
+    }
+
+    .right-footer {
+        gap: 30px;
+        width: 50%
+    }
+
+    .left-footer p {
+        font-size: 27px;
+        padding-bottom: 31px;
+        font-family: 'Montserrat', sans-serif;
+        text-align: left;
+    }
+
+    .icons {
+        gap: 26px;
+    }
+
+    .number {
+        flex-direction: row;
+    }
+
+    .text {
+        padding-top: 200px;
+    }
+
+    .mobilenav {
+        display: none;
+    }
+
+    header .mobilenav {
+        padding: 10px 0px;
+        display: none;
+        gap: 220px;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+
+}
+
+/* 1366 */
+@media only screen and (min-width: 1366px) {
+    .container {
+        padding: 5px 70px;
+    }
+
+    .nav ul {
+        gap: 60px;
+    }
+
+    .nav a {
+        font-size: 30px;
+    }
+
+    /* MAIN SLIDER */
+    .slider h2 {
+        font-size: 118px;
+    }
+
+    .slider p {
+        font-size: 28px;
+    }
+
+    .slider a {
+        font-size: 30px;
+    }
+
+    /* SECOND SLIDER */
+    .content h3 {
+        font-size: 72px;
+    }
+
+    .content p {
+        font-size: 28px;
+    }
+
+    .cards {
+        gap: 82px;
+    }
+
+    /* THIRD SLIDER */
+    .card h2,
+    .pricing p {
+        font-size: 36px;
+    }
+
+    .cards .card p {
+        font-size: 20px;
+    }
+
+    /* FOURTH SLIDER */
+    .left-img h2,
+    .right-img h2 {
+        font-size: 75px;
+    }
+
+    .text p {
+        font-size: 30px;
+    }
+
+    .text a {
+        font-size: 30px;
+    }
+
+    /* FIFTH SLIDER */
+    .title h2 {
+        font-size: 70px;
+    }
+
+    .title p {
+        font-size: 30px;
+    }
+
+    .number {
+        font-size: 66px;
+    }
+
+    .sub h5 {
+        font-size: 41px;
+    }
+
+    .sub {
+        gap: 249px;
+        padding-left: 71px;
+    }
+
+    /* SIXTH SLIDER */
+    .sixthcontent p {
+        font-size: 50px;
+    }
+
+    .sixthcontent h3 {
+        font-size: 49px;
+    }
+
+    /* SEVENTH SLIDER */
+    .sevenslider h2 {
+        font-size: 75px;
+    }
+
+    .sevenslider p {
+        font-size: 30px;
+    }
+
+    /* .subs {
+    padding: 16px 3px;
+    font-size: 20px;
+    margin-right: 3px;
+    }
+    
+    .email {
+    width: 552px;
+    height: 64px;
+    margin-bottom: 60px; 
+    padding: 23px 2px 26px 22px;   
+    } */
+
+    /* FOOTER */
+    .footer h6 {
+        font-size: 33px;
+    }
+
+    .left-footer p {
+        font-size: 27px;
+    }
+
+    .right-footer a {
+        font-size: 25px;
+    }
+
+    .left-footer {
+        width: 46%;
+    }
+
+    .right-footer {
+        gap: 38px;
+        width: 54%
+    }
+
+    .icons {
+        gap: 17px;
+    }
+
+    .fa-arrow-left {
+        padding: 14px;
+    }
+
+    .fa-arrow-right {
+        padding: 14px;
+    }
+}
+
+/* 1440 */
+@media only screen and (min-width: 1440px) {
+
+    .container {
+        padding: 5px 80px;
+    }
+
+    /* HEADER */
+
+    .nav ul {
+        gap: 62px;
+    }
+
+    .nav a {
+        font-size: 25px;
+    }
+
+    /* MAIN SLIDER */
+    .slider h2 {
+        font-size: 130px;
+    }
+
+    .slider p {
+        font-size: 29px;
+    }
+
+    .slider a {
+        font-size: 30px;
+        padding: 24px 78px;
+    }
+
+    /* SECOND SLIDER */
+    .content h3 {
+        font-size: 75px;
+    }
+
+    .content p {
+        font-size: 30px;
+    }
+
+    .cards {
+        gap: 82px;
+    }
+
+    /* THIRD SLIDER */
+    .card h2,
+    .pricing p {
+        font-size: 36px;
+    }
+
+    .cards .card p {
+        font-size: 23Px;
+    }
+
+    /* FOURTH SLIDER */
+    .left-img h2,
+    .right-img h2 {
+        font-size: 75px;
+    }
+
+    .text p {
+        font-size: 30px;
+    }
+
+    .text a {
+        font-size: 30px;
+        padding: 23px 97px;
+    }
+
+    /* FIFTH SLIDER */
+    .title h2 {
+        font-size: 70px;
+    }
+
+    .title p {
+        font-size: 30px;
+    }
+
+    .number {
+        font-size: 66px;
+    }
+
+    .sub h5 {
+        font-size: 41px;
+    }
+
+    .sub {
+        gap: 249px;
+        padding-left: 71px;
+    }
+
+    /* SIXTH SLIDER */
+    .sixthcontent p {
+        font-size: 50px;
+    }
+
+    .sixthcontent h3 {
+        font-size: 49px;
+    }
+
+    /* SEVENTH SLIDER */
+    .sevenslider h2 {
+        font-size: 75px;
+    }
+
+    .sevenslider p {
+        font-size: 30px;
+    }
+
+    /* .subs {
+padding: 16px 3px;
+font-size: 20px;
+margin-right: 3px;
+}
+
+.email {
+width: 552px;
+height: 64px;
+margin-bottom: 60px; 
+padding: 23px 2px 26px 22px;   
+} */
+
+    /* FOOTER */
+    .footer h6 {
+        font-size: 33px;
+    }
+
+    .left-footer p {
+        font-size: 27px;
+    }
+
+    .right-footer a {
+        font-size: 25px;
+    }
+
+    .left-footer {
+        width: 46%;
+    }
+
+    .right-footer {
+        gap: 38px;
+        width: 54%
+    }
+
+    .icons {
+        gap: 17px;
+    }
+
+    .fa-arrow-left {
+        padding: 12px;
+    }
+
+    .fa-arrow-right {
+        padding: 12px;
+    }
+
+
+}
+
+@media only screen and (min-width: 1920px) {
+
+    .container {
+        padding: 5px 100px;
+    }
+
+    .nav a {
+        font-size: 35px;
+    }
+
+    .slider {
+        position: absolute;
+        top: 28%;
+        width: 890px;
+    }
+
+    .slider h2 {
+        font-size: 163px;
+    }
+
+    .slider p {
+        font-size: 38px;
+    }
+
+    .slider a {
+        font-size: 43px;
+        padding: 24px 78px;
+    }
+
+    .content h3 {
+        font-size: 125px;
+    }
+
+    .content p {
+        font-size: 44px;
+    }
+
+    .card h2,
+    .pricing p {
+        font-size: 55px;
+    }
+
+    .cards .card p {
+        font-size: 32Px;
+    }
+
+    .pricing .card h2 {
+        font-size: 65px;
+    }
+
+    .pricing .card p {
+        font-size: 32px;
+    }
+
+    .pricing .card a {
+        font-size: 49px;
+    }
+
+    .left-img img {
+        width: 100%;
+    }
+
+    .right-img img {
+        width: 100%;
+    }
+
+    .left-img h2,
+    .right-img h2 {
+        font-size: 107px;
+    }
+
+    .text p {
+        font-size: 42px;
+    }
+
+    .text a {
+        font-size: 55px;
+    }
+
+    .title h2 {
+        font-size: 110px;
+    }
+
+    .title p {
+        font-size: 45px;
+    }
+
+    .sub {
+        gap: 380px;
+        padding-left: 71px;
+    }
+
+    .sixthcontent p {
+        font-size: 77px;
+    }
+
+    .sixthcontent h3 {
+        font-size: 90px;
+    }
+
+    .sevenslider h2 {
+        font-size: 113px;
+    }
+
+    .subs {
+        padding: 16px 20px;
+        font-size: 43px;
+    }
+
+    .footer h6 {
+        font-size: 55px;
+    }
+
+    .right-footer a {
+        font-size: 35px;
+    }
+
+    .left-footer p {
+        font-size: 35px;
+    }
+
+    .fa-arrow-left {
+        padding: 17px;
+    }
+
+    .fa-arrow-right {
+        padding: 17px;
+    }
+
+
+
+}
