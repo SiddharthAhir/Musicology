@@ -502,6 +502,10 @@ p {
     display: none;
 } */
 
+.laptop-slider{
+    display: none;
+}
+
 
 
 /* MEDIA QUERY */
@@ -770,6 +774,12 @@ p {
     .mobile-slider{
         display: none;
     }
+
+    .laptop-slider{
+        display: block;
+    }
+
+
 
     .slider {
         display: block;
