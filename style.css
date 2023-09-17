@@ -362,8 +362,13 @@ p {
     background-repeat: no-repeat;
 }
 
+
 .number h3 {
-    width: 100%;
+    font-size: 44px;
+}
+
+.number h5 {
+    font-size: 33px;
 }
 
 .title {
@@ -502,7 +507,7 @@ p {
     display: none;
 } */
 
-.laptop-slider{
+.laptop-slider {
     display: none;
 }
 
@@ -675,11 +680,11 @@ p {
         text-align: left;
     }
 
-    .mobile-slider{
+    .mobile-slider {
         display: block;
     }
 
-    .slider-new{
+    .slider-new {
         /* display: none; */
     }
 
@@ -687,7 +692,7 @@ p {
 }
 
 /* 375 */
-@media only screen and (min-width: 375px){
+@media only screen and (min-width: 375px) {
     .left-footer p {
         font-size: 20px;
     }
@@ -706,13 +711,22 @@ p {
 }
 
 /* 425 */
-@media only screen and (min-width: 425px){
+@media only screen and (min-width: 425px) {
     .footer h6 {
         font-size: 40px;
     }
 }
 
-@media only screen and (min-width: 768px){
+@media only screen and (min-width: 768px) {
+
+
+    .number h3 {
+        font-size: 56px;
+    }
+
+    .number h5 {
+        font-size: 46px;
+    }
 
     .content h3 {
         font-size: 60px;
@@ -771,15 +785,13 @@ p {
         padding: 5px 50px;
     }
 
-    .mobile-slider{
+    .mobile-slider {
         display: none;
     }
 
-    .laptop-slider{
+    .laptop-slider {
         display: block;
     }
-
-
 
     .slider {
         display: block;
@@ -1078,7 +1090,7 @@ p {
     }
 
     .left-footer p {
-        font-size:19px;
+        font-size: 19px;
         padding-bottom: 31px;
         font-family: 'Montserrat', sans-serif;
         text-align: left;
@@ -1090,6 +1102,15 @@ p {
 
     .number {
         flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .number h3 {
+        font-size: 42px;
+    }
+
+    .number h5 {
+        font-size: 40px;
     }
 
     .text {
@@ -1189,8 +1210,12 @@ p {
         font-size: 30px;
     }
 
-    .number {
-        font-size: 66px;
+    .number h3 {
+        font-size: 52px;
+    }
+
+    .number h5 {
+        font-size: 46px;
     }
 
     .sub h5 {
@@ -1251,6 +1276,7 @@ p {
         font-size: 24px;
         margin-right: 3px;
     }
+
     .left-footer {
         width: 46%;
     }
@@ -1362,6 +1388,14 @@ p {
     .sub {
         gap: 249px;
         padding-left: 71px;
+    }
+
+    .number h3 {
+        font-size: 52px;
+    }
+
+    .number h5 {
+        font-size: 48px;
     }
 
     /* SIXTH SLIDER */
@@ -1563,6 +1597,14 @@ padding: 23px 2px 26px 22px;
 
     .fa-arrow-right {
         padding: 17px;
+    }
+
+    .number h3 {
+        font-size: 70px;
+    }
+
+    .number h5 {
+        font-size: 56px;
     }
 
 
