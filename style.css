@@ -793,6 +793,11 @@ p {
         display: block;
     }
 
+    .pricing .card h2 {
+        font-size: 31px;
+        width: 100%;
+    }
+
     .slider {
         display: block;
     }
@@ -1297,6 +1302,10 @@ p {
     .fa-arrow-right {
         padding: 14px;
     }
+
+    .icons img{
+        width: 9%;
+    }
 }
 
 /* 1440 */
@@ -1416,19 +1425,6 @@ p {
         font-size: 30px;
     }
 
-    /* .subs {
-padding: 16px 3px;
-font-size: 20px;
-margin-right: 3px;
-}
-
-.email {
-width: 552px;
-height: 64px;
-margin-bottom: 60px; 
-padding: 23px 2px 26px 22px;   
-} */
-
     /* FOOTER */
     .footer h6 {
         font-size: 33px;
@@ -1461,6 +1457,10 @@ padding: 23px 2px 26px 22px;
 
     .fa-arrow-right {
         padding: 12px;
+    }
+
+    .icons img{
+        width: 9%;
     }
 
 
@@ -1517,7 +1517,7 @@ padding: 23px 2px 26px 22px;
     }
 
     .pricing .card h2 {
-        font-size: 65px;
+        font-size: 58px;
     }
 
     .pricing .card p {
@@ -1605,6 +1605,10 @@ padding: 23px 2px 26px 22px;
 
     .number h5 {
         font-size: 56px;
+    }
+
+    .icons img{
+        width: 10%;
     }
 
 
